@@ -2,34 +2,21 @@
 
     ce repos contient les dossiers suivants:
 
-## Model
-    Ce dossier(`model`) cotient les diagrammes des diferents patern etudier dans le cour.
+## Comportement
+    Ce dossier contient les exemples et les exercices pour les patrons de comportement.
+## Structuration
+    Ce dossier contient les exemples et les exercices pour les patrons de structuration.
+## Construction
+    Ce dossier contient les exemples et les exercices pour les patrons de construction.
+## Descriptions des Sous dossiers
+    Chaque dossier contient les sous dossiers corespondant au diferent patern etudier dans le cour. et chaque sous dossier contient les codes pour les exemples et les exercices de ce patern.:
 
-## Code
-    Le dossier `code` contient les deux sous dossier qui sont les suivants:
-- `cours `: ce dossier contient les codes des exemples du cour.
-- `exo `: ce dossier contient les codes des exercices du cour.
+- `model `: qui contient les models des diagrammes des exemples du cour.
+- `exemple `: qui contient les codes des exemples du cour.
+- `exo `: qui contient les codes des exercices du cour.
 
 
-## Dossier Model
-    Le dossier `model` contient les fichiers pdf suivants:
-
-- `factory `: le fichier contient le diagramme pour le patron signeton.
-- `abstract factory `: le fichier contient le diagramme pour le patron signeton.
-- `singleton `: le fichier contient le diagramme pour le patron signeton.
-- `builder `: le fichier contient le diagramme pour le patron Builder.
-
-## Dossier Code
-### Dossier code/cours
+### Dossier exemple/exo
+    Dans
     ce dossier les code pour les exemples de cour et pour chaque patern on a un dossier qui contient les codes pour les exemples de ce patern. :
-- `AbstractFactory` : ce dossier contient les classes pour le patron AbstractFactory. et un fichier `Client.java` pour permetre de tester ces classes.
-- `factory` : ce dossier contient les classes pour le patron factory. et un fichier `Client.java` pour permetre de tester ces classes.
-- `factorymethod` : ce dossier contient les classes pour le patron factorymethod. et un fichier `Client.java` pour permetre de tester ces classes.
-- `Singleton `: ce Dossier contient les classe pour le patern `Singleton ` et une un fichier `TestSingleton.java`  pour tester l'exemple.
-
-### Dossier code/coursexercice
-    ce dossier les code pour les exercices de cour et pour chaque patern on a un dossier qui contient les codes pour les exercices de ce patern. :
-- `AbstractFactory` : ce dossier contient les classes pour le patron AbstractFactory. et un fichier `Client.java` pour permetre de tester ces classes.
-- `factory` : ce dossier contient les classes pour le patron factory. et un fichier `Client.java` pour permetre de tester ces classes.
-- `factorymethod` : ce dossier contient les classes pour le patron factorymethod. et un fichier `Client.java` pour permetre de tester ces classes.
-- `Singleton `: ce Dossier contient les classe pour le patern `Singleton ` et une un fichier `TestSingleton.java`  pour tester l'exemple.
+chaque  dossier contient les classes pamite lesquelles la classe `Client.java` pour permetre de tester ces exemples.
